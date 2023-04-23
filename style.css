@@ -1,0 +1,201 @@
+/* Write some CSS below : */
+
+/* 1. Global design first : Body, Headers, Colors, Fonts, Font size, Font weight */
+
+body{
+    font-family:Rajdhani;
+    font-size: 18
+    px;
+    text-align: center;
+    color: rgb(50, 50, 50);
+    background: rgb(230,230,230);
+}
+
+
+h1{
+    font-family: syncopate;
+    font-weight:bold;
+    font-size: 28px;
+    color: #EA4335;
+}
+
+
+h2{
+    color:#EA4335;
+    font-family: syncopate ;
+    padding-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+}   
+
+
+
+
+/* 2. Appearance of html elements : Images, Links (buttons), Divs */
+
+.container {
+    width: 700px;
+    margin: auto auto;
+}
+
+.white-cards { 
+    margin: 35px;
+    padding: 35px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(188, 188, 188, 0.5);
+    border-radius: 10px;
+}
+
+.list-avc-bp{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.list-avc-bp li{
+    padding-bottom: 7px;
+}
+
+.list-sans-bp{
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.list-sans-bp li{
+    padding-bottom: 7px;
+}
+
+/*1st card - INTRO*/
+
+#marion-photo{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(114, 114, 114, 0.5);
+    ;
+}
+
+#lign-black{
+background-color: black;
+height: 160px;
+}
+
+.cards-inline-2fr-name{
+    display:grid ;
+    grid-template-columns: 150px auto;
+    grid-gap: 16px;
+    margin-bottom: 10px;
+}
+
+.cards-inline-2fr-1line{
+    display:grid ;
+    grid-template-columns: auto 2px 220px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+ #intro{
+   margin-bottom: -9px; 
+ }
+
+#btn-orange{
+    color:white;
+    background-color: #EA4335; 
+    padding: 12px 35px ; 
+    border-radius:4px;
+    font-weight: bold;
+}
+
+
+
+/* 2nd card - Btn Navigation */ 
+
+#btn-nav{
+list-style: none;
+padding: 40px;
+margin: 40px 0;
+background-color: white;
+text-align: center;
+box-shadow: 0 10px 20px rgba(188, 188, 188, 0.5);
+}
+
+
+.cards-inline-2fr{
+display:grid ;
+grid-template-columns: 1fr 1fr;
+grid-gap: 16px;
+margin-bottom: 50px;
+}
+
+.cards-inline-3fr{
+display:grid ;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 10px;
+padding-top: 30px;
+padding-bottom: 50px;
+}
+
+.btn-inline{
+text-decoration:none; 
+color:rgb(70, 70, 70);
+background:  rgba(255, 255, 255, 0.5);
+border-radius:4px;
+font-weight: bold;
+font-size: 15px;
+text-align: center;
+}
+
+.img-cads-inline{
+padding-bottom: -55px;
+}
+
+.card-invisible{
+height: 120px;
+}
+
+
+.card-invisible img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+/* 3rd card - En quelques mots */ 
+  
+#en-quelques-mots{
+    height: 490px;
+  }
+
+  .cards-inline-2fr-1line-eqm{
+    display:grid ;
+    grid-template-columns: auto 2px 220px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  #lign-black-eqm{
+    background-color: black;
+    height: 310px;
+    }
+
+    /* 4rd card - Mes expériences */
+
+.txt-orange{
+  color: #EA4335;
+}
+
+.list-sans-bp-expe{
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.list-sans-bp-expe li{
+    padding-bottom: 20px;
+}
+  
+  
